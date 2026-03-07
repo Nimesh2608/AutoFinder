@@ -8,13 +8,16 @@ Realizzato con **React + Vite** per il frontend e **Node.js + Express** per il b
 ## 📂 Struttura del progetto
 
 client/ → Contiene il progetto Next.jsReact + Vite) per l'interfaccia utente.
+
 server/ → Contiene il progetto Node.js + Express per il server e la gestione del database.
 
 
 ## ⚙️ Prerequisiti
 
 - **Node.js** (versione 18 o successiva consigliata)
+
 - **npm**
+
 - Un browser moderno
 
 ---
@@ -26,15 +29,19 @@ Segui questi passaggi per eseguire il progetto in locale.
 ### 1. Clona il repository
 
 git clone https://github.com/Nimesh2608/AutoFinder.git
+
 cd AutoFinder
 
 ### 2. Configura il Backend
 
 cd server
+
 npm install
+
 npm run dev
 
 Il server backend si avvierà all'indirizzo http://localhost:4000.
+
 Dovresti vedere il messaggio: ✅ Server avviato su http://localhost:4000.
 
 ### 3. Configura il frontend
@@ -42,7 +49,9 @@ Dovresti vedere il messaggio: ✅ Server avviato su http://localhost:4000.
 Apri una nuova finestra del terminale (lascia il backend in esecuzione) e vai nella cartella frontend:
 
 cd ../frontend
+
 npm install
+
 npm run dev
 
 Il server di sviluppo di Vite si avvierà su http://localhost:5173 (di solito). Apri questo indirizzo nel browser.
@@ -68,3 +77,4 @@ Frontend: React, React Router, Vite, CSS
 Backend: Node.js, Express, CORS, dotenv
 
 Database: File JSON (tramite modulo fs di Node.js)
+
