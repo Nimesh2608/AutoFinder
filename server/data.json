@@ -1,0 +1,36 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "marca": "Fiat",
+      "modello": "Panda",
+      "anno": 2021,
+      "prezzo": 10990,
+      "immagine": "/images/panda.jpg"
+    },
+    {
+      "id": 2,
+      "marca": "Volkswagen",
+      "modello": "Golf",
+      "anno": 2019,
+      "prezzo": 16490,
+      "immagine": "/images/golf.jpg"
+    },
+    {
+      "id": 3,
+      "marca": "Tesla",
+      "modello": "Model 3",
+      "anno": 2022,
+      "prezzo": 34900,
+      "immagine": "/images/model3.jpg"
+    },
+    {
+      "id": 1767303463635,
+      "marca": "Lamborghini",
+      "modello": "Urus",
+      "anno": "2025",
+      "prezzo": "120000",
+      "immagine": "/images/urus.png"
+    }
+  ]
+}

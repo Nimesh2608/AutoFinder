@@ -1,0 +1,107 @@
+/* Admin container */
+.admin-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Header */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.logout-btn {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+
+/* Add car form */
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px 0 20px;
+}
+
+.admin-form input {
+  flex: 1 1 200px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.admin-form button {
+  flex: 1 1 100%;
+  background: #1976d2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.admin-form button:hover {
+  background: #125aa0;
+}
+
+/* Cars table */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table thead th {
+  background: #1a2b3c;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table tbody tr:hover {
+  background: #f5f5f5;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background: #c62828;
+}
