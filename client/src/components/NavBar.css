@@ -1,6 +1,6 @@
-/* Navbar styles */
+/* Stili Navbar */
 .navbar {
-  background-color: #1a2b3c;  /* solid dark blue */
+  background-color: #1a2b3c;  
   height: 70px;
   position: sticky;
   top: 0;
@@ -11,7 +11,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  height: 100%;                /* fill the navbar height */
+  height: 100%;                
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,5 +36,5 @@
 }
 
 .nav-links a.active {
-  border-bottom: 2px solid #fff;  /* simple underline for active page */
+  border-bottom: 2px solid #fff;  
 }

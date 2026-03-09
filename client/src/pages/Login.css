@@ -1,10 +1,10 @@
-/* Basic reset */
+/* Reset Basico*/
 html, body {
   margin: 0;
   padding: 0;
 }
 
-/* Page container */
+/* Container della pagine */
 .login-container {
   min-height: 100vh;
   display: flex;
@@ -12,17 +12,17 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: 0 20px;
-  color: white; /* all text outside form is white */
+  color: white; 
 }
 
-/* Title */
+/* Titolo */
 .login-container h1 {
   margin-bottom: 20px;
   text-align: center;
   color: white;
 }
 
-/* Login form box */
+/* Box di login */
 .login-form {
   background: white;
   padding: 30px;
@@ -31,10 +31,10 @@ html, body {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   box-sizing: border-box;
-  color: #333; /* text inside form is dark */
+  color: #333; 
 }
 
-/* Input fields */
+/* Campi di input */
 .login-form input {
   width: 100%;
   padding: 10px;
@@ -45,10 +45,10 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Login button */
+/* Bottone Login */
 .login-form button {
   width: 100%;
-  background: #1976d2; /* standard blue */
+  background: #1976d2; 
   color: white;
   padding: 10px;
   border: none;
@@ -75,7 +75,7 @@ html, body {
   color: #1976d2;
 }
 
-/* Small screens */
+
 @media (max-width: 480px) {
   .login-form {
     padding: 20px;

@@ -6,21 +6,21 @@ export default function Admin() {
   const navigate = useNavigate();
   const [cars, setCars] = useState([]);
 
-  // Form fields
+  // Campi del modulo
   const [marca, setMarca] = useState("");
   const [modello, setModello] = useState("");
   const [anno, setAnno] = useState("");
   const [prezzo, setPrezzo] = useState("");
   const [immagine, setImmagine] = useState("");
 
-  // Check login on mount
+  // Controlla il login al montaggio del componente
   useEffect(() => {
     if (!localStorage.getItem("adminLogged")) {
       navigate("/login");
     }
   }, [navigate]);
 
-  // Load cars
+  // Caricamento Auto
   const loadCars = () => {
     fetch("http://localhost:4000/api/cars")
       .then(res => res.json())
@@ -31,7 +31,7 @@ export default function Admin() {
     loadCars();
   }, []);
 
-  // Add car
+  // Aggiungi Auto
   const handleAddCar = (e) => {
     e.preventDefault();
     if (!marca || !modello || !anno || !prezzo) {
@@ -53,7 +53,7 @@ export default function Admin() {
     });
   };
 
-  // Delete car
+  // Rimuovi Auto
   const handleDelete = (id) => {
     if (window.confirm("Vuoi eliminare questa auto?")) {
       fetch(`http://localhost:4000/api/cars/${id}`, {

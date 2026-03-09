@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const carsRoutes = require('./routes/cars');
 const authRoutes = require('./routes/auth');
-const adminRoutes = require('./routes/admin');   // optional
+const adminRoutes = require('./routes/admin');   
 
 const app = express();
 
@@ -17,7 +17,7 @@ app.use('/images', express.static(path.join(__dirname, '../public/images')));
 // Routes
 app.use('/api/cars', carsRoutes);
 app.use('/api/auth', authRoutes);
-app.use('/api/admin', adminRoutes);   // optional
+app.use('/api/admin', adminRoutes);   
 
 // Root test
 app.get('/', (req, res) => {

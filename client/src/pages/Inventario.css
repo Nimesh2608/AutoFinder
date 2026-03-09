@@ -1,25 +1,25 @@
-/* Inventory page */
+/* Pagina Inventario*/
 .inventario {
   padding: 40px;
   min-height: 100vh;
-  background: #f5f7fa;  /* simple light background */
+  background: #f5f7fa;  
 }
 
-/* Page title */
+
 .inventario h1 {
   color: #1a2b3c;
   font-size: 36px;
   margin-bottom: 30px;
 }
 
-/* Card grid */
+/* Griglia Macchine */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 24px;
 }
 
-/* Car card */
+/* Carta Macchina*/
 .card {
   background: #fff;
   border: 1px solid #ddd;
@@ -28,10 +28,10 @@
 }
 
 .card:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);  /* subtle hover effect */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
 }
 
-/* Image area */
+/* Area Immagine*/
 .image-wrapper {
   width: 100%;
   height: 180px;
@@ -47,7 +47,7 @@
   object-fit: contain;
 }
 
-/* Card text */
+/* Testo della carta */
 .card-body {
   padding: 14px;
 }

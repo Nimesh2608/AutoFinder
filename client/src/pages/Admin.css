@@ -1,4 +1,4 @@
-/* Admin container */
+/* Container del admin */
 .admin-container {
   max-width: 1100px;
   margin: 40px auto;
@@ -36,7 +36,7 @@
   background: #b71c1c;
 }
 
-/* Add car form */
+/* Modulo di aggiunta auto */
 .admin-form {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +68,7 @@
   background: #125aa0;
 }
 
-/* Cars table */
+/* Tabella macchina */
 .admin-table {
   width: 100%;
   border-collapse: collapse;
@@ -91,7 +91,7 @@
   background: #f5f5f5;
 }
 
-/* Delete button */
+/* Bottone Delete */
 .delete-btn {
   background: #e53935;
   color: #fff;

@@ -6,14 +6,14 @@ body {
   color: #333;
 }
 
-/* Container for pages */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Login form */
+/* Modulo Login */
 .login-form {
   display: flex;
   flex-direction: column;

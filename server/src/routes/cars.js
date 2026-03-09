@@ -2,13 +2,13 @@ const express = require('express');
 const { readCars, writeCars } = require('../db/store');
 const router = express.Router();
 
-// GET all cars
+// GET tutte le macchine
 router.get('/', (req, res) => {
   const cars = readCars();
   res.json({ cars });
 });
 
-// POST a new car
+// POST una nuova macchina
 router.post('/', (req, res) => {
   const { marca, modello, anno, prezzo, immagine } = req.body;
   if (!marca || !modello || !anno || !prezzo) {
@@ -17,7 +17,7 @@ router.post('/', (req, res) => {
 
   const cars = readCars();
   const newCar = {
-    id: Date.now(),            // simple unique id
+    id: Date.now(),            
     marca,
     modello,
     anno,
@@ -29,7 +29,7 @@ router.post('/', (req, res) => {
   res.status(201).json(newCar);
 });
 
-// DELETE a car by id
+// DELETE una macchina dal ID
 router.delete('/:id', (req, res) => {
   const id = Number(req.params.id);
   let cars = readCars();
