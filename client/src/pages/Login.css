@@ -76,11 +76,3 @@ html, body {
 }
 
 
-@media (max-width: 480px) {
-  .login-form {
-    padding: 20px;
-  }
-  .login-container {
-    padding: 0 15px;
-  }
-}
