@@ -7,7 +7,7 @@ Realizzato con **React + Vite** per il frontend e **Node.js + Express** per il b
 
 ## 📂 Struttura del progetto
 
-client/ → Contiene il progetto Next.jsReact + Vite) per l'interfaccia utente.
+client/ → Contiene il progett ( Next.jsReact + Vite) per l'interfaccia utente.
 
 server/ → Contiene il progetto Node.js + Express per il server e la gestione del database.
 
@@ -74,7 +74,7 @@ Dopo il login, verrai reindirizzato alla pagina Admin, dove puoi aggiungere nuov
 
 Frontend: React, React Router, Vite, CSS
 
-Backend: Node.js, Express, CORS, dotenv
+Backend: Node.js, Express, dotenv
 
 Database: File JSON (tramite modulo fs di Node.js)
 
