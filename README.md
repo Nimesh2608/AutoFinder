@@ -34,7 +34,7 @@ cd AutoFinder
 
 ### 2. Configura il Backend
 
-cd server
+cd BackEnd
 
 npm install
 
@@ -48,7 +48,7 @@ Dovresti vedere il messaggio: ✅ Server avviato su http://localhost:4000.
 
 Apri una nuova finestra del terminale (lascia il backend in esecuzione) e vai nella cartella frontend:
 
-cd ../frontend
+cd ../frontEnd
 
 npm install
 
