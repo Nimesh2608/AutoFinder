@@ -7,7 +7,7 @@ Realizzato con **React + Vite** per il frontend e **Node.js + Express** per il b
 
 ## 📂 Struttura del progetto
 
-client/ → Contiene il progett ( Next.jsReact + Vite) per l'interfaccia utente.
+client/ → Contiene il progetot ( Next.jsReact + Vite) per l'interfaccia utente.
 
 server/ → Contiene il progetto Node.js + Express per il server e la gestione del database.
 
