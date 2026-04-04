@@ -3,7 +3,7 @@
 AutoFinder è un'applicazione web completa per la visualizzazione e la gestione dell'inventario di una concessionaria auto.  
 Offre un catalogo pubblico di veicoli e un'area privata per gli amministratori, dove è possibile aggiungere o rimuovere auto.
 
-Realizzato da **Francis Nimesh Perera** e **Houssem Hajji**
+Realizzato da **Francis Nimesh Perera**
 
 Realizzato con **React + Vite** per il frontend e **Node.js + Express** per il backend, utilizzando un semplice file JSON come database.
 
